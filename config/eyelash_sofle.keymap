@@ -82,7 +82,7 @@
 &kp C_MUTE      &kp LCTRL  &mo 2   &kp LEFT_ALT  &kp SPACE  &kp LEFT_GUI    &kp ENTER        &kp LCMD  &mo 2   &mo 3      &kp LEFT_ALT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
             display-name = "LAYER0";
         };
 
@@ -96,7 +96,7 @@
 &kp C_MUTE      &kp LCMD  &mo 2   &kp LEFT_ALT  &kp SPACE  &kp LCTRL    &kp ENTER        &kp LCTRL  &mo 2   &mo 3      &kp LEFT_ALT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
         };
 
         layer_2 {
